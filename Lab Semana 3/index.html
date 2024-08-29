@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+    html, body {
+        height: 100%; /* Asegura que el HTML y el body ocupen toda la altura */
+        margin: 0; /* Elimina el margen por defecto */
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column; /* Apila los bloques verticalmente */
+        height: 100vh; /* Ocupa toda la altura de la ventana */
+    }
+
+    .block {
+        width: 100%; /* Hace que los bloques ocupen todo el ancho del contenedor */
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #bloque1 {
+        background-color: #007bff; /* Azul */
+        height: 100px; /* Altura específica para el primer bloque */
+    }
+    #bloque2 {
+        background-color: #6c757d; /* Gris */
+        height: 800px; /* Altura específica para el segundo bloque */
+    }
+    #bloque3 {
+        background-color: #28a745; /* Verde */
+        height: 130px; /* Altura específica para el tercer bloque */
+    }
+    #bloque4 {
+        background-color: #dc3545; /* Rojo */
+        height: 800px; /* Altura específica para el cuarto bloque */
+    }
+    #bloque5 {
+        background-color: #dc3545; /* Rojo */
+        height: 500px; /* Altura específica para el quinto bloque */
+    }
+    #bloque6 {
+        background-color: #dc3545; /* Rojo */
+        height: 500px; /* Altura específica para el sexto bloque */
+    }
+</style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="bloque1" class="block">Bloque 1</div>
+        <div id="bloque2" class="block">Bloque 2</div>
+        <div id="bloque3" class="block">Bloque 3</div>
+        <div id="bloque4" class="block">Bloque 4</div>
+        <div id="bloque5" class="block">Bloque 5</div>
+        <div id="bloque6" class="block">Bloque 6</div>
+    </div>
+
+    <!-- Agregar JS y las dependencias si es que las necesito -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
